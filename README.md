@@ -1,4 +1,4 @@
-# Análise e Desenvolvimento de Sistemas
+# *Análise e Desenvolvimento de Sistemas*
 Conjunto de atividades, códigos e anotações de estudos realizados durante o curso de Análise e Desenvolvimento de Sistemas na Universidade Cidade de São Paulo.
 Previsão de conclusão: dez/2025.
 
