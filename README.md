@@ -3,12 +3,12 @@ Conjunto de atividades, códigos e anotações de estudos realizados durante o c
 Previsão de conclusão: dez/2025.
 
 ## Disciplinas envolvidas
-| 1º Semestre (2024.1) | 2º Semestre |
+| 1º Semestre (2024.1) | 2º Semestre (2024.2) |
 |----------------------|-------------|
 | [Aplicações Para Internet](https://github.com/sousakai/analise-dev-sis-unicid/tree/master/2024-1/app-web)| Programação Web |
 | [Programação de Computadores](https://github.com/sousakai/analise-dev-sis-unicid/tree/master/2024-1/pro-computadores) | Técnicas de Desenvolvimento de Algoritmos |
 | Modelagem de Negócios e Requisitos | Engenharia de Software |
-| Organização e Arquitetura de Computadores * | Sistemas Operacionais |
+| Organização e Arquitetura de Computadores | Sistemas Operacionais |
 
 
 Disciplinas sem repositório não possuem projetos de programação.
