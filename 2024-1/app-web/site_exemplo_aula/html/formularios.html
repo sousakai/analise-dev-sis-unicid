@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel= "shortcut icon" type ="image/x-icon" href= "D:\UNICID\2024.1\APLICAÇÕES PARA INTERNET\Atividades\site_exemplo_aula\imagens\548f2-cropped-icone.png">
+<!-- PENDRIVE NA UNICID: "D:\"; PENDRIVE EM CASA: "E:\" -->
+
+	<title>FORMULÁRIOS</title>
+</head>
+
+<body>
+	<h3> CONTATO </h3>
+
+<form method="post" action="https://www.linkedin.com/in/kayke-sousa/details/certifications/" enctype="multipart/formdata">
+<!-- Tag "method" vai definir o método de envio de informações. O action se refere a outro código. (13/05) --> 
+
+ <!-- a tag "form" abre a seção de formulários -->
+
+	NOME: <br>
+	<input type="text" value="Ángel ROMERO." name="nome" placeholder="digite seu nome!"> 
+<!-- a tag "input" vai ler a informação inserida pelo usuário, tal como em linguagens de programação (python etc.). 
+
+A tag "name" irá dar um identificador à esse input, como se fosse o nome de uma variável (utilizado em JavaScript)".
+
+A tag "placeholder" vai criar as mensagens temporárias que ficarão dentro da seção de texto, e que desaparecerão quando o usuário inserir suas informações.
+
+A tag "value" irá digitar algo de forma "permanente", mas que pode ser apagado pelo usuário.
+ -->
+
+
+	<br>
+
+	MENSAGEM: <br>
+	<input type="area" size="100" maxlength="3">
+<!-- a tag "type" vai definir o tipo de comando que será inserido, e o tipo de caixa exibida. --> 
+
+	<br>
+
+	DESATIVADO: <br>
+	<input disabled>
+
+<!-- a tag "disabled" desativa a seção. -->
+
+	<br>
+
+	TESTE DE NOVO: <br>
+	<textarea rows="5" cols="20"> </textarea>
+		
+<!-- a tag "textarea" irá definir os parâmetros de texto dentro da seção. Nesse caso, limita os caracteres a 20, a partir disso, passa para a próxima linha e cria barra de rolagem. -->
+
+	<br>
+
+	EXEMPLO DE SENHA OCULTA: <br>
+	<input type="password" name="senha">
+<!-- a tag "password" somada ao type cria uma seção de senha, e automaticamente substitui os caracteres digitados por asteriscos para preservar a informação. -->
+
+	<br>
+
+<label> EXEMPLO DE CAMPO DE EMAIL: </label> <br>
+<input type="email" name="email" required>
+<!-- a tag "required" não permite que o usuário dê sequência sem antes preencher o campo. Torna o preenchimento obrigatório. O "type="email"" vai informar ao código que esse campo deve ser usado para emails. -->
+
+<br>
+
+<label> EXEMPLO DE ENVIO DE ARQUIVO </label> <br>
+<input type="file" name="arquivo">
+
+<H3> EXEMPLO PRÁTICO </H3>
+
+<br>
+
+<fieldset>
+
+<p> 
+
+	<label> <i> <h3> Nome: </h1> </i> </label>
+	<input type="text" size="20" maxlength="15" required name="nome">
+
+<br>
+
+	<label> <i> <h3> Sobrenome: </h1> </i> </label> 
+	<input type="text" size="20" maxlength="30" name="sobrenome">
+
+<br>
+
+	<label> <i> <h3> Senha: </h1> </i> </label>
+	<input type="password" size="15" maxlength="10" required name="senha">
+
+<br> 
+
+	<label> <i> <h3> Idade: </h3> </i> </label>
+	<input type="number" min="0" max="200" required name="idade" step="1">
+
+<br>
+
+	<label> <i> <h3> Data de Nascimento: </h3> </i> </label>
+	<input type="date" name="data">
+
+<br>
+
+	<label> <i> <h3> Defina seu gênero: </h3> </i> </label>
+	<input type="radio" name="gênero" checked="checked"> Masculino
+	<input type="radio" name="gênero"> Feminino
+<!-- o fato dos dois inputs terem o mesmo nome que vai permitir ao navegador entender que se trata do mesmo campo, impedindo que se marque os dois simultâneamente. -->
+<br>
+
+	<label> <i> <h3> Defina sua ocupação: </h3> </i> </label>
+	<input type="checkbox" name="estudante"> Estudante <br>
+	<input type="checkbox" name="estudante"> Empregado <br>
+	<input type="checkbox" name="estudante"> Não exerce atividade <br>
+
+<br>
+
+<input type="submit" name="enviar" value="Envie o formulário">
+<br>
+<input type="reset" name="reset" value="Limpar o formulário">
+
+</p>
+</fieldset>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel= "shortcut icon" type ="image/x-icon" href= "D:\UNICID\2024.1\APLICAÇÕES PARA INTERNET\Atividades\site_exemplo_aula\imagens\548f2-cropped-icone.png">
+<!-- PENDRIVE NA UNICID: "D:\"; PENDRIVE EM CASA: "E:\" -->
+
+<style type="text/css">
+	h3{font-style: italic; color:blue }
+	
+</style>
+<title>FORMULÁRIOS</title>
+</head>
+
+<body>
+
+<H3> EXEMPLO PRÁTICO </H3>
+
+<br>
+
+<fieldset>
+
+<p> 
+
+	<label> <i> <h3> Nome: </h1> </i> </label>
+	<input type="text" size="20" maxlength="15" required name="nome">
+
+<br>
+
+	<label> <i> <h3> Sobrenome: </h1> </i> </label> 
+	<input type="text" size="20" maxlength="30" name="sobrenome">
+
+<br>
+
+	<label> <i> <h3> Senha: </h1> </i> </label>
+	<input type="password" size="15" maxlength="10" required name="senha">
+
+<br> 
+
+	<label> <i> <h3> Idade: </h3> </i> </label>
+	<input type="number" min="0" max="200" name="idade" step="1" required>
+
+<br>
+
+	<label> <i> <h3> Data de Nascimento: </h3> </i> </label>
+	<input type="date" name="data" min="01/01/1999">
+
+<br>
+
+	<label> <i> <h3> Defina seu gênero: </h3> </i> </label>
+	<input type="radio" name="gênero" checked="checked"> Masculino
+	<input type="radio" name="gênero"> Feminino
+<!-- o fato dos dois inputs terem o mesmo nome que vai permitir ao navegador entender que se trata do mesmo campo, impedindo que se marque os dois simultâneamente. -->
+<br>
+
+	<label> <i> <h3> Defina sua ocupação: </h3> </i> </label>
+	<input type="checkbox" name="estudante"> Estudante <br>
+	<input type="checkbox" name="estudante"> Empregado <br>
+	<input type="checkbox" name="estudante"> Não exerce atividade <br>
+
+<br>
+<input type="image" name="enviar" src="botao.png">
+<br>
+
+<label> <i> <h3> Indique seu time de coração: </h3> </i> </label>
+<select name="times">
+	<option> Sport Club Corinthians Paulista </option>
+	<option> Sociedade Esportiva Palmeiras </option>
+	<option> São Paulo Futebol Clube </option>
+	<option> Santos Futebol Clube </option>
+<br>
+<br>
+<input type="submit" name="enviar" value="Envie o formulário">
+
+<br>
+
+<input type="reset" name="reset" value="Limpar o formulário">
+
+<br>
+
+</p>
+</fieldset>
