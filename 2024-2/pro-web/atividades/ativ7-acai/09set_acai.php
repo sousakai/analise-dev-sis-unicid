@@ -45,7 +45,7 @@
     }
     $valorTotal = $valorCopo + $valorCond;
     //Calcula o valor total somando as duas outras variáveis, valorCopo e valorCond.
-    //A variável recebe esses valores depois das sequências de switch e if, pois só nesse trecho os valores doram definidos.
+    //A variável recebe esses valores depois das sequências de switch e if, pois só nesse trecho os valores foram definidos.
 
     echo "<br>Parabéns, $nome! O seu pedido ficará:<br><h2>R$$valorTotal </h2><br>Valor dos condimentos:  adicionados:<br>R$$valorCond<br>Copo selecionado:<br> $copo (R$ $valorCopo)";
     ?>
