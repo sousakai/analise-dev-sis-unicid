@@ -1,4 +1,4 @@
-# Programação Web  
+# *Programação Web*
 A disciplina possui o objetivo de aprofundar os conhecimentos ofertados no semestre anterior, avançando para integração em PHP.
 
 ## Projeto Semestral:
