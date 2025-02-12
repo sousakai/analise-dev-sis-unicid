@@ -10,5 +10,12 @@ Previsão de conclusão: dez/2025.
 | Modelagem de Negócios e Requisitos | Engenharia de Software |
 | Organização e Arquitetura de Computadores | Sistemas Operacionais |
 
+| 1º Semestre (2025.1) | 
+|----------------------|
+| [Programação Orientada a Objetos](https://github.com/sousakai/analise-dev-sis-unicid/tree/master/2025-1/pro-objetos) |
+| Estruturas de Dados| 
+| Banco de Dados |
+| Análise e Projeto de Sistemas |
+
 
 Disciplinas sem repositório não possuem projetos de programação.
